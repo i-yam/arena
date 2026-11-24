@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Was denken KI-Würzburger über die Arena?</title>
-<meta name="description" content="Ein Experiment: 100 KI-generierte Personen aus Stadt und Landkreis Würzburg, von einer KI im Rollenspiel gespielt, beantworten die Frage nach der Multifunktionsarena. Keine echte Umfrage.">
+<meta name="description" content="Ein Experiment: 100 KI-Personen aus Stadt und Landkreis Würzburg, von einer KI im Rollenspiel gespielt, beantworten die Frage nach der Multifunktionsarena. Keine echte Umfrage.">
 <style>
 :root{
   --orange:#ff6a00; --ink:#141414; --paper:#ffffff; --soft:#f1f2f4; --line:#d6dade; --muted:#55606b;
@@ -175,7 +175,7 @@ footer ul{margin:0;padding-left:1.1rem}
     <a href="#ablauf" data-en="How it works">So funktioniert es</a>
     <a href="#prompt" data-en="What the AI reads">Was die KI liest</a>
     <a href="#gruppen" data-en="Groups">Gruppen</a>
-    <a href="#personen" data-en="The 100 personas">Die 100 Personen</a>
+    <a href="#personen" data-en="The 100 AI persons">Die 100 KI-Personen</a>
     <a href="#grenzen" data-en="Limits">Grenzen</a>
   </nav>
   <div class="lang" role="group" aria-label="Sprache / Language">
@@ -195,7 +195,7 @@ footer ul{margin:0;padding-left:1.1rem}
 <div class="panel">
   <div class="wrapin">
     <div class="panelhead">
-      <h2 data-en="Each dot is one role-played persona. Switch the round and watch who changes colour.">Jeder Punkt ist eine von der KI gespielte Person. Schalten Sie die Runde um und sehen Sie, wer die Farbe wechselt.</h2>
+      <h2 data-en="Each dot is one AI person. Switch the round and watch who changes colour.">Jeder Punkt ist eine KI-Person. Schalten Sie die Runde um und sehen Sie, wer die Farbe wechselt.</h2>
       <div class="seg" role="group" aria-label="Runde">
         <button type="button" data-cond="a" aria-pressed="true" data-en="Without information">Ohne Information</button>
         <button type="button" data-cond="b" aria-pressed="false" data-en="With information">Mit Information</button>
@@ -210,8 +210,8 @@ footer ul{margin:0;padding-left:1.1rem}
 <section id="ergebnis"><div class="wrap">
   <h2 data-en="Without information: a three-way split. With information: a majority against.">Ohne Information: drei fast gleich große Lager. Mit Information: eine Mehrheit dagegen.</h2>
   <div class="prose">
-    <p class="lead" data-en="Asked cold, 36 of the 100 personas lean in favour, 34 are undecided and 30 lean against. After reading the summary with costs and the arguments of both sides, 23 are in favour, 23 undecided and 54 against.">Ohne Vorwissen sind 36 der 100 Personen eher dafür, 34 unentschieden und 30 eher dagegen. Nach der Zusammenfassung mit Kosten und den Argumenten beider Seiten sind 23 dafür, 23 unentschieden und 54 dagegen.</p>
-    <p data-en="The information moved 35 personas, and every one of them moved towards “against”. Nobody became more favourable.">Die Information hat 35 Personen bewegt, und alle in Richtung „dagegen“. Niemand wurde dadurch positiver.</p>
+    <p class="lead" data-en="Asked cold, 36 of the 100 AI persons lean in favour, 34 are undecided and 30 lean against. After reading the summary with costs and the arguments of both sides, 23 are in favour, 23 undecided and 54 against.">Ohne Vorwissen sind 36 der 100 KI-Personen eher dafür, 34 unentschieden und 30 eher dagegen. Nach der Zusammenfassung mit Kosten und den Argumenten beider Seiten sind 23 dafür, 23 unentschieden und 54 dagegen.</p>
+    <p data-en="The information moved 35 AI persons, and every one of them moved towards “against”. Nobody became more favourable.">Die Information hat 35 KI-Personen bewegt, und alle in Richtung „dagegen“. Niemand wurde dadurch positiver.</p>
   </div>
   <div class="note"><p data-en="<strong>Please read this as a thought experiment.</strong> These are answers an AI considers plausible for such people. They say nothing reliable about what real residents think.">
     <strong>Bitte als Gedankenexperiment lesen.</strong> Das sind Antworten, die eine KI für solche Menschen plausibel findet. Sie sagen nichts Verlässliches darüber, was echte Bürgerinnen und Bürger denken.</p></div>
@@ -219,14 +219,14 @@ footer ul{margin:0;padding-left:1.1rem}
   <div class="two">
     <div class="fig">
       <h3 data-en="Answers in both rounds">Antworten in beiden Runden</h3>
-      <p class="cap" data-en="Number of personas out of 100. Nobody chose the extreme answers 1 or 5.">Anzahl der Personen von 100. Die Extremantworten 1 und 5 hat niemand gewählt.</p>
+      <p class="cap" data-en="Number of AI persons out of 100. Nobody chose the extreme answers 1 or 5.">Anzahl der KI-Personen von 100. Die Extremantworten 1 und 5 hat niemand gewählt.</p>
       <div id="overall"></div>
       <div class="legend" id="leg1"></div>
       <div class="wm">@kr0niker</div>
     </div>
     <div class="fig">
       <h3 data-en="Who moved where">Wer wohin gewandert ist</h3>
-      <p class="cap" data-en="Left: answer without information. Right: answer of the same personas with information.">Links: Antwort ohne Information. Rechts: Antwort derselben Personen mit Information.</p>
+      <p class="cap" data-en="Left: answer without information. Right: answer of the same AI persons with information.">Links: Antwort ohne Information. Rechts: Antwort derselben KI-Personen mit Information.</p>
       <div id="flow"></div>
       <div class="wm">@kr0niker</div>
     </div>
@@ -239,16 +239,16 @@ footer ul{margin:0;padding-left:1.1rem}
     <p data-en="A language model is a computer program that has read enormous amounts of text and learned to continue text in a plausible way. Give it a description of a person and it can answer “in character”, much like an actor handed a role sheet. That is all that happens here.">Ein Sprachmodell ist ein Computerprogramm, das riesige Mengen Text gelesen und dabei gelernt hat, Texte plausibel fortzusetzen. Gibt man ihm die Beschreibung eines Menschen, kann es „in der Rolle“ antworten, ähnlich wie eine Schauspielerin, die ein Rollenblatt bekommt. Mehr passiert hier nicht.</p>
   </div>
   <ol class="steps">
-    <li><div><h3 data-en="100 AI-generated personas">100 KI-generierte Personen</h3>
-      <p data-en="The starting point is a public data set of AI-generated personas for Germany (<a href=&quot;https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany&quot;>Nemotron-Personas-Germany</a> by NVIDIA). According to its publishers, age, sex, marital status, household type, immigration history and education are distributed as in the 2022 census, so the data set as a whole is meant to be statistically representative. We took a sample of 100 entries for the city and district of Würzburg. These are not real people, and no real person stands behind any single entry.">Ausgangspunkt ist ein öffentlicher Datensatz mit KI-generierten Personen für Deutschland (<a href="https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany">Nemotron-Personas-Germany</a> von NVIDIA). Alter, Geschlecht, Familienstand, Haushaltstyp, Einwanderungsgeschichte und Bildung sind laut den Herausgebern so verteilt wie im Zensus 2022, der Datensatz als Ganzes soll also statistisch repräsentativ sein. Wir haben daraus eine Stichprobe von 100 Einträgen für Stadt und Landkreis Würzburg genommen. Es sind keine echten Menschen, und hinter keinem einzelnen Eintrag steht eine reale Person.</p></div></li>
+    <li><div><h3 data-en="100 AI persons">100 KI-Personen</h3>
+      <p data-en="The starting point is a public data set of AI persons for Germany (<a href=&quot;https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany&quot;>Nemotron-Personas-Germany</a> by NVIDIA). According to its publishers, age, sex, marital status, household type, immigration history and education are distributed as in the 2022 census, so the data set as a whole is meant to be statistically representative. We took a sample of 100 entries for the city and district of Würzburg. These are not real people, and no real person stands behind any single entry.">Ausgangspunkt ist ein öffentlicher Datensatz mit KI-Personen für Deutschland (<a href="https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany">Nemotron-Personas-Germany</a> von NVIDIA). Alter, Geschlecht, Familienstand, Haushaltstyp, Einwanderungsgeschichte und Bildung sind laut den Herausgebern so verteilt wie im Zensus 2022, der Datensatz als Ganzes soll also statistisch repräsentativ sein. Wir haben daraus eine Stichprobe von 100 Einträgen für Stadt und Landkreis Würzburg genommen. Es sind keine echten Menschen, und hinter keinem einzelnen Eintrag steht eine reale Person.</p></div></li>
     <li><div><h3 data-en="A role sheet for each of them">Für jede ein Rollenblatt</h3>
       <p data-en="Each entry becomes a text that begins with “Du bist dieser Mensch” (you are this person) and lists everything the data set says: age, job, household, hobbies, cultural background. You can read these texts in full further down.">Aus jedem Eintrag wird ein Text, der mit „Du bist dieser Mensch“ beginnt und alles aufzählt, was der Datensatz hergibt: Alter, Beruf, Haushalt, Hobbys, kultureller Hintergrund. Diese Texte können Sie weiter unten vollständig lesen.</p></div></li>
-    <li><div><h3 data-en="One fresh conversation per person">Für jede Person ein frisches Gespräch</h3>
-      <p data-en="Every role sheet goes to a separate, newly started copy of the AI (Claude by Anthropic). That copy knows nothing about the other 99 personas, nothing about earlier answers and nothing about us. Think of 100 people in 100 separate rooms: nobody can copy from their neighbour.">Jedes Rollenblatt geht an eine eigene, neu gestartete Kopie der KI (Claude von Anthropic). Diese Kopie weiß nichts von den anderen 99 Personen, nichts von früheren Antworten und nichts über uns. Man kann es sich wie 100 Menschen in 100 getrennten Räumen vorstellen: Niemand kann beim Nachbarn abschreiben.</p></div></li>
+    <li><div><h3 data-en="One fresh conversation per AI person">Für jede KI-Person ein frisches Gespräch</h3>
+      <p data-en="Every role sheet goes to a separate, newly started copy of the AI (Claude by Anthropic). That copy knows nothing about the other 99 AI persons, nothing about earlier answers and nothing about us. Think of 100 people in 100 separate rooms: nobody can copy from their neighbour.">Jedes Rollenblatt geht an eine eigene, neu gestartete Kopie der KI (Claude von Anthropic). Diese Kopie weiß nichts von den anderen 99 KI-Personen, nichts von früheren Antworten und nichts über uns. Man kann es sich wie 100 Menschen in 100 getrennten Räumen vorstellen: Niemand kann beim Nachbarn abschreiben.</p></div></li>
     <li><div><h3 data-en="The same question, asked twice">Dieselbe Frage, zweimal gestellt</h3>
       <p data-en="Round 1: only the role sheet and the question “What is your position on building the Multifunktionsarena in Würzburg?”, answered on a scale from 1 (strongly against) to 5 (strongly in favour) with a short reason. Round 2: the same, plus one paragraph of facts and the main arguments of supporters and critics. Both rounds are separate conversations, so round 2 does not know the answer from round 1.">Runde 1: nur das Rollenblatt und die Frage „Wie stehst du zum Bau der Multifunktionsarena in Würzburg?“, zu beantworten auf einer Skala von 1 (stark dagegen) bis 5 (stark dafür) mit kurzer Begründung. Runde 2: dasselbe, dazu ein Absatz mit Fakten und den wichtigsten Argumenten von Befürwortern und Kritikern. Beide Runden sind getrennte Gespräche, Runde 2 kennt die Antwort aus Runde 1 also nicht.</p></div></li>
     <li><div><h3 data-en="Counting">Auszählen</h3>
-      <p data-en="That makes 200 answers. We count them overall and by group, and compare the two rounds for each persona. In the charts, 1 and 2 count as “against”, 3 as “undecided”, 4 and 5 as “in favour”.">Das ergibt 200 Antworten. Wir zählen sie insgesamt und nach Gruppen aus und vergleichen für jede Person die beiden Runden. In den Grafiken zählen 1 und 2 als „dagegen“, 3 als „unentschieden“, 4 und 5 als „dafür“.</p></div></li>
+      <p data-en="That makes 200 answers. We count them overall and by group, and compare the two rounds for each AI person. In the charts, 1 and 2 count as “against”, 3 as “undecided”, 4 and 5 as “in favour”.">Das ergibt 200 Antworten. Wir zählen sie insgesamt und nach Gruppen aus und vergleichen für jede KI-Person die beiden Runden. In den Grafiken zählen 1 und 2 als „dagegen“, 3 als „unentschieden“, 4 und 5 als „dafür“.</p></div></li>
   </ol>
   <div class="note"><p data-en="<strong>Why two rounds?</strong> It is the classic design of an experiment. Everything stays the same except one thing, here the information paragraph. If the answers differ, the paragraph is the most likely cause.">
     <strong>Warum zwei Runden?</strong> Das ist der klassische Aufbau eines Experiments. Alles bleibt gleich, bis auf eine Sache, hier der Informationsabsatz. Unterscheiden sich die Antworten, ist dieser Absatz die wahrscheinlichste Ursache.</p></div>
@@ -257,14 +257,14 @@ footer ul{margin:0;padding-left:1.1rem}
 <section id="prompt"><div class="wrap">
   <h2 data-en="What the AI actually gets to read">Was die KI tatsächlich zu lesen bekommt</h2>
   <div class="prose">
-    <p data-en="The text sent to the AI is called a prompt. Ours has three parts, shown below exactly as sent, for one of the 100 personas. The prompts are in German; the wording was identical for everyone apart from the role sheet.">Den Text, den die KI erhält, nennt man Prompt. Unserer hat drei Teile. Unten sehen Sie ihn genau so, wie er verschickt wurde, für eine der 100 Personen. Der Wortlaut war für alle gleich, nur das Rollenblatt unterscheidet sich.</p>
+    <p data-en="The text sent to the AI is called a prompt. Ours has three parts, shown below exactly as sent, for one of the 100 AI persons. The prompts are in German; the wording was identical for everyone apart from the role sheet.">Den Text, den die KI erhält, nennt man Prompt. Unserer hat drei Teile. Unten sehen Sie ihn genau so, wie er verschickt wurde, für eine der 100 KI-Personen. Der Wortlaut war für alle gleich, nur das Rollenblatt unterscheidet sich.</p>
   </div>
   <div class="tools">
     <div class="seg" role="group" aria-label="Runde">
       <button type="button" data-pcond="a" aria-pressed="false" data-en="Round 1: without information">Runde 1: ohne Information</button>
       <button type="button" data-pcond="b" aria-pressed="true" data-en="Round 2: with information">Runde 2: mit Information</button>
     </div>
-    <button type="button" class="btn" id="rnd" data-en="Show another persona">Andere Person zeigen</button>
+    <button type="button" class="btn" id="rnd" data-en="Show another AI person">Andere KI-Person zeigen</button>
     <span id="pwho" class="cond"></span>
   </div>
   <div class="letter" id="letter"></div>
@@ -274,9 +274,9 @@ footer ul{margin:0;padding-left:1.1rem}
 </div></section>
 
 <section id="gruppen"><div class="wrap">
-  <h2 data-en="Age divides the personas most, education hardly at all">Das Alter trennt am stärksten, die Bildung kaum</h2>
+  <h2 data-en="Age divides the AI persons most, education hardly at all">Das Alter trennt am stärksten, die Bildung kaum</h2>
   <div class="prose">
-    <p data-en="Pick a characteristic. For each group the upper bar shows round 1 (without information) and the lower bar round 2 (with information), as a share of the group. Small groups are shaky: with 20 personas, a single answer shifts the result by 5 percentage points.">Wählen Sie ein Merkmal. Für jede Gruppe zeigt der obere Balken Runde 1 (ohne Information) und der untere Runde 2 (mit Information), jeweils als Anteil an der Gruppe. Kleine Gruppen sind wackelig: Bei 20 Personen verschiebt eine einzige Antwort das Ergebnis um 5 Prozentpunkte.</p>
+    <p data-en="Pick a characteristic. For each group the upper bar shows round 1 (without information) and the lower bar round 2 (with information), as a share of the group. Small groups are shaky: with 20 AI persons, a single answer shifts the result by 5 percentage points.">Wählen Sie ein Merkmal. Für jede Gruppe zeigt der obere Balken Runde 1 (ohne Information) und der untere Runde 2 (mit Information), jeweils als Anteil an der Gruppe. Kleine Gruppen sind wackelig: Bei 20 KI-Personen verschiebt eine einzige Antwort das Ergebnis um 5 Prozentpunkte.</p>
   </div>
   <div class="chips" id="dimchips" role="group" aria-label="Merkmal"></div>
   <div class="fig">
@@ -288,9 +288,9 @@ footer ul{margin:0;padding-left:1.1rem}
 </div></section>
 
 <section id="personen"><div class="wrap">
-  <h2 data-en="Meet the 100 personas and read their reasons">Die 100 Personen und ihre Begründungen</h2>
+  <h2 data-en="Meet the 100 AI persons and read their reasons">Die 100 KI-Personen und ihre Begründungen</h2>
   <div class="prose">
-    <p data-en="Each persona gave a short reason in both rounds. The two dots show the answer without and with information. Cost comes up in almost every answer; without information, many also say the hall simply does not concern them much.">Jede Person hat in beiden Runden eine kurze Begründung gegeben. Die zwei Punkte zeigen die Antwort ohne und mit Information. Die Kosten kommen in fast jeder Antwort vor; ohne Information sagen außerdem viele, die Halle betreffe sie persönlich kaum.</p>
+    <p data-en="Each AI person gave a short reason in both rounds. The two dots show the answer without and with information. Cost comes up in almost every answer; without information, many also say the hall simply does not concern them much.">Jede KI-Person hat in beiden Runden eine kurze Begründung gegeben. Die zwei Punkte zeigen die Antwort ohne und mit Information. Die Kosten kommen in fast jeder Antwort vor; ohne Information sagen außerdem viele, die Halle betreffe sie persönlich kaum.</p>
   </div>
   <div class="filters" id="filters"></div>
   <div class="count" id="pcount" aria-live="polite"></div>
@@ -304,11 +304,11 @@ footer ul{margin:0;padding-left:1.1rem}
   <h2 data-en="What this experiment cannot tell you">Was dieses Experiment nicht leisten kann</h2>
   <ul class="limits">
     <li data-en="<strong>Simulated, not measured.</strong> The answers show what the AI expects such people to say. Whether real people would answer this way is exactly what a real survey would have to find out."><strong>Simuliert, nicht gemessen.</strong> Die Antworten zeigen, was die KI von solchen Menschen erwartet. Ob echte Menschen so antworten würden, müsste eine echte Befragung erst zeigen.</li>
-    <li data-en="<strong>Only 100 personas.</strong> Subgroups of 20 to 30 carry an uncertainty of roughly 15 to 20 percentage points. Groups under 20 are indications at best."><strong>Nur 100 Personen.</strong> Untergruppen mit 20 bis 30 Personen haben eine Unsicherheit von grob 15 bis 20 Prozentpunkten. Gruppen unter 20 sind höchstens ein Hinweis.</li>
-    <li data-en="<strong>More women than men.</strong> 61 of the 100 personas are women, and women are the more sceptical group here. That pulls the overall result down a little."><strong>Mehr Frauen als Männer.</strong> 61 der 100 Personen sind Frauen, und Frauen sind hier die skeptischere Gruppe. Das drückt das Gesamtergebnis etwas.</li>
+    <li data-en="<strong>Only 100 AI persons.</strong> Subgroups of 20 to 30 carry an uncertainty of roughly 15 to 20 percentage points. Groups under 20 are indications at best."><strong>Nur 100 KI-Personen.</strong> Untergruppen mit 20 bis 30 KI-Personen haben eine Unsicherheit von grob 15 bis 20 Prozentpunkten. Gruppen unter 20 sind höchstens ein Hinweis.</li>
+    <li data-en="<strong>More women than men.</strong> 61 of the 100 AI persons are women, and women are the more sceptical group here. That pulls the overall result down a little."><strong>Mehr Frauen als Männer.</strong> 61 der 100 KI-Personen sind Frauen, und Frauen sind hier die skeptischere Gruppe. Das drückt das Gesamtergebnis etwas.</li>
     <li data-en="<strong>The AI avoids extremes.</strong> Not one of the 200 answers was “strongly against” or “strongly in favour”. Real opinions are likely more polarised."><strong>Die KI meidet Extreme.</strong> Keine der 200 Antworten lautete „stark dagegen“ oder „stark dafür“. Echte Meinungen dürften stärker auseinandergehen.</li>
     <li data-en="<strong>The information paragraph shapes the result.</strong> It names a cost figure, mentions an earlier lower estimate and lists the critics’ arguments next to the supporters’. Costs therefore appear twice. A differently worded paragraph could move answers less, or in another direction."><strong>Der Informationsabsatz prägt das Ergebnis.</strong> Er nennt eine Kostenzahl, erwähnt eine frühere niedrigere Schätzung und stellt die Argumente der Kritiker neben die der Befürworter. Kosten kommen dadurch zweimal vor. Ein anders formulierter Absatz könnte weniger bewegen oder in eine andere Richtung.</li>
-    <li data-en="<strong>Asked once.</strong> Each persona answered once per round. Ask again and some individual answers would differ. The overall direction, 35 moves down and none up, is unlikely to be chance."><strong>Einmal gefragt.</strong> Jede Person hat pro Runde einmal geantwortet. Bei einer Wiederholung fielen einzelne Antworten anders aus. Die Gesamtrichtung, 35 Bewegungen nach unten und keine nach oben, ist aber kaum Zufall.</li>
+    <li data-en="<strong>Asked once.</strong> Each AI person answered once per round. Ask again and some individual answers would differ. The overall direction, 35 moves down and none up, is unlikely to be chance."><strong>Einmal gefragt.</strong> Jede KI-Person hat pro Runde einmal geantwortet. Bei einer Wiederholung fielen einzelne Antworten anders aus. Die Gesamtrichtung, 35 Bewegungen nach unten und keine nach oben, ist aber kaum Zufall.</li>
     <li data-en="<strong>Shortened role sheets.</strong> In our copy of the data set, several longer description fields were cut off after about 320 characters (visible as “...” in the prompts)."><strong>Gekürzte Rollenblätter.</strong> In unserer Kopie des Datensatzes waren mehrere längere Beschreibungsfelder nach etwa 320 Zeichen abgeschnitten (in den Prompts als „...“ sichtbar).</li>
     <li data-en="<strong>Unchecked details in the information paragraph.</strong> It was compiled from short summaries of the sources below. Whether the land purchase is part of the city’s maximum contribution or comes on top was not clear from them."><strong>Ungeprüfte Details im Informationsabsatz.</strong> Er wurde aus Kurzfassungen der unten genannten Quellen zusammengestellt. Ob der Grundstückskauf im Höchstbetrag der Stadt enthalten ist oder hinzukommt, ging daraus nicht eindeutig hervor.</li>
   </ul>
@@ -328,7 +328,7 @@ footer ul{margin:0;padding-left:1.1rem}
   </div>
   <div>
     <h3 data-en="Data and method">Daten und Methode</h3>
-    <p data-en="Personas: <a href=&quot;https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany&quot;>Nemotron-Personas-Germany</a> (NVIDIA, CC BY 4.0), 100 entries for the city and district of Würzburg. Model: Claude (Anthropic). 200 separate runs on 24 November 2026.">Personen: <a href="https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany">Nemotron-Personas-Germany</a> (NVIDIA, CC BY 4.0), 100 Einträge für Stadt und Landkreis Würzburg. Modell: Claude (Anthropic). 200 getrennte Durchläufe am 24. November 2026.</p>
+    <p data-en="AI persons: <a href=&quot;https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany&quot;>Nemotron-Personas-Germany</a> (NVIDIA, CC BY 4.0), 100 entries for the city and district of Würzburg. Model: Claude (Anthropic). 200 separate runs on 24 November 2026.">KI-Personen: <a href="https://huggingface.co/datasets/nvidia/Nemotron-Personas-Germany">Nemotron-Personas-Germany</a> (NVIDIA, CC BY 4.0), 100 Einträge für Stadt und Landkreis Würzburg. Modell: Claude (Anthropic). 200 getrennte Durchläufe am 24. November 2026.</p>
     <p><button type="button" class="btn" id="csv" data-en="Download all answers (CSV)">Alle Antworten herunterladen (CSV)</button></p>
     <p><a href="https://x.com/kr0niker">@kr0niker</a> <span data-en="on X">auf X</span><br><a href="https://www.linkedin.com/in/kroniker/">LinkedIn</a></p>
   </div>
@@ -408,7 +408,7 @@ function renderFlow(){
   var ol={},or={};ord.forEach(function(c){ol[c]=0;or[c]=0});
   ord.forEach(function(a){ord.forEach(function(b){var n=m[a+'-'+b];if(!n)return;
     var ya=yl[a]+ol[a],yb=yr[b]+or[b],hh=n*k;ol[a]+=hh;or[b]+=hh;var xm=(x0+nw+x1)/2;
-    s+='<path d="M'+(x0+nw)+' '+ya+'C'+xm+' '+ya+' '+xm+' '+yb+' '+x1+' '+yb+'L'+x1+' '+(yb+hh)+'C'+xm+' '+(yb+hh)+' '+xm+' '+(ya+hh)+' '+(x0+nw)+' '+(ya+hh)+'Z" style="fill:var(--'+(a===2?'against':a===3?'neutral':'favour')+');opacity:'+(a===2?.5:a===b?.28:.6)+'" data-tip="'+esc('<b>'+n+'</b> '+L('Personen','personas')+': '+catName(a)+' → '+catName(b))+'"/>';
+    s+='<path d="M'+(x0+nw)+' '+ya+'C'+xm+' '+ya+' '+xm+' '+yb+' '+x1+' '+yb+'L'+x1+' '+(yb+hh)+'C'+xm+' '+(yb+hh)+' '+xm+' '+(ya+hh)+' '+(x0+nw)+' '+(ya+hh)+'Z" style="fill:var(--'+(a===2?'against':a===3?'neutral':'favour')+');opacity:'+(a===2?.5:a===b?.28:.6)+'" data-tip="'+esc('<b>'+n+'</b> '+L('KI-Personen','AI persons')+': '+catName(a)+' → '+catName(b))+'"/>';
     if(hh>=14) s+='<text x="'+(a===b?xm:x1-10)+'" y="'+((a===b?(ya+yb)/2:yb)+hh/2+5)+'" text-anchor="'+(a===b?'middle':'end')+'" font-size="14" font-weight="700" pointer-events="none">'+n+'</text>';
   })});
   ord.forEach(function(c){var v='var(--'+(c===2?'against':c===3?'neutral':'favour')+')';
@@ -426,7 +426,7 @@ function renderGroups(){
   document.getElementById('dimchips').innerHTML=DIMS.map(function(d,j){return '<button type="button" data-dim="'+j+'" aria-pressed="'+(j===dim)+'">'+L(d.de,d.en)+'</button>'}).join('');
   var gs=groupsOf(DIMS[dim]),h='',t='<table><thead><tr><th>'+L('Gruppe','Group')+'</th><th>n</th><th>'+L('Runde','Round')+'</th><th>'+catName(2)+' %</th><th>'+catName(3)+' %</th><th>'+catName(4)+' %</th><th>'+L('Antwort gesenkt %','Moved down %')+'</th></tr></thead><tbody>';
   gs.forEach(function(g){var n=g.list.length,ta=tally(g.list,'a'),tb=tally(g.list,'b'),mv=g.list.filter(function(p){return p.b<p.a}).length;
-    h+='<div class="grp"><div class="gname">'+esc(g.name)+' <small>'+n+' '+L('Personen','personas')+(n<20?', '+L('sehr kleine Gruppe','very small group'):'')+'</small></div>'+
+    h+='<div class="grp"><div class="gname">'+esc(g.name)+' <small>'+n+' '+L('KI-Personen','AI persons')+(n<20?', '+L('sehr kleine Gruppe','very small group'):'')+'</small></div>'+
        '<div class="row"><div class="lab cond">'+L('Ohne Information','Without information')+'</div>'+sbar(ta,n,true,true,g.name+', '+L('ohne Information','without information'))+'</div>'+
        '<div class="row"><div class="lab cond">'+L('Mit Information','With information')+'</div>'+sbar(tb,n,true,true,g.name+', '+L('mit Information','with information'))+'</div></div>';
     function pc(x){return Math.round(x/n*100)}
@@ -465,13 +465,13 @@ function renderFilters(){
 function filtered(){return P.filter(function(p){return (!F.sex||p.sex===F.sex)&&(!F.age||ageG(p)===F.age)&&(!F.kreis||p.kreis===F.kreis)&&(!F.mv||(F.mv==='moved'?p.a!==p.b:F.mv==='same'?p.a===p.b:F.mv==='pro'?p.b>3:p.b<3))})}
 function renderList(){
   var l=filtered();
-  document.getElementById('pcount').textContent=l.length+' '+L('von 100 Personen','of 100 personas');
-  document.getElementById('plist').innerHTML=l.length?l.map(function(p){return '<li><button type="button" data-p="'+p.i+'" aria-current="'+(p.i===sel)+'"><span class="pair"><i class="sw s'+cat(p.a)+'"></i><i class="sw s'+cat(p.b)+'"></i></span><span>'+esc(job(p))+'<small>'+p.age+', '+sx(p)+', '+vl(p.kreis)+'</small></span></button></li>'}).join(''):'<li style="padding:1rem">'+L('Keine Person passt zu diesen Filtern. Setzen Sie einen Filter auf „alle“ zurück.','No persona matches these filters. Set one filter back to “all”.')+'</li>';
+  document.getElementById('pcount').textContent=l.length+' '+L('von 100 KI-Personen','of 100 AI persons');
+  document.getElementById('plist').innerHTML=l.length?l.map(function(p){return '<li><button type="button" data-p="'+p.i+'" aria-current="'+(p.i===sel)+'"><span class="pair"><i class="sw s'+cat(p.a)+'"></i><i class="sw s'+cat(p.b)+'"></i></span><span>'+esc(job(p))+'<small>'+p.age+', '+sx(p)+', '+vl(p.kreis)+'</small></span></button></li>'}).join(''):'<li style="padding:1rem">'+L('Keine KI-Person passt zu diesen Filtern. Setzen Sie einen Filter auf „alle“ zurück.','No AI person matches these filters. Set one filter back to “all”.')+'</li>';
 }
 function renderDetail(){
   var p=P[sel];
   var rows=[[L('Alter','Age'),p.age],[L('Geschlecht','Sex'),sx(p)],[L('Wohnort','Residence'),vl(p.kreis)],[L('Familienstand','Marital status'),p.marital_status],[L('Haushalt','Household'),p.household_type],[L('Bildung','Education'),p.education_level],[L('Erwerbsstatus','Employment'),p.employment_status]];
-  document.getElementById('pd').innerHTML='<h3>'+esc(job(p))+'</h3><p lang="de">'+esc(p.persona)+'</p><dl>'+rows.map(function(r){return '<dt>'+r[0]+'</dt><dd>'+esc(r[1])+'</dd>'}).join('')+'</dl><div class="ans">'+ansCard(p,'a')+ansCard(p,'b')+'</div>'+(lang==='en'?'<p class="cap">Persona details and answers are shown in the original German.</p>':'')+'<p><button type="button" class="linkbtn" id="toPrompt">'+L('Den vollständigen Prompt dieser Person ansehen','See the full prompt for this persona')+'</button></p>';
+  document.getElementById('pd').innerHTML='<h3>'+esc(job(p))+'</h3><p lang="de">'+esc(p.persona)+'</p><dl>'+rows.map(function(r){return '<dt>'+r[0]+'</dt><dd>'+esc(r[1])+'</dd>'}).join('')+'</dl><div class="ans">'+ansCard(p,'a')+ansCard(p,'b')+'</div>'+(lang==='en'?'<p class="cap">Details and answers of the AI person are shown in the original German.</p>':'')+'<p><button type="button" class="linkbtn" id="toPrompt">'+L('Den vollständigen Prompt dieser KI-Person ansehen','See the full prompt for this AI person')+'</button></p>';
 }
 function renderAll(){renderHero();renderOverall();renderFlow();renderGroups();renderPrompt();renderFilters();renderList();renderDetail()}
 
